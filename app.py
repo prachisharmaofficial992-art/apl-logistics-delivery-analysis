@@ -24,7 +24,7 @@ st.set_page_config(
 # ---------------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("APL_Logistics_cleaned.csv")
+    df = pd.read_csv("APL_Logistics_cleaned_slim.csv")
     return df
 
 df = load_data()
